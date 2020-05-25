@@ -3,14 +3,14 @@ import java.util.*;
 class Main {
 
   public static void main(String[] args) {
-    Institution institution = new Institution("Институт", "г. Город");
+    Institution institution = new Institution("Институт", "г. город");
     
-    institution.addCourse(new Course("Химия"));
-    institution.addCourse(new Course("Высшая математика"));
+    institution.addCourse(new Course("Биология"));
+    institution.addCourse(new Course("Инженерная графика"));
     institution.addCourse(new Course("программирование"));
 
-    institution.addLecturer(new Lecturer("Химик Денисова"));
-    institution.addLecturer(new Lecturer("Математик Лютова "));
+    institution.addLecturer(new Lecturer("Биолог Денисова"));
+    institution.addLecturer(new Lecturer("Инженер Лютова "));
     institution.addLecturer(new Lecturer("Программист Паршин "));
 
     institution.addStudent(new Student("Макеев Андрей Александрович"));
